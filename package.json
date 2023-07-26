@@ -1,0 +1,18 @@
+{
+  "name": "yarn-monorepo-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "app":"yarn workspace @ymt/app",
+    "common":"yarn workspace @ymt/common",
+    "server":"yarn workspace @ymt/server"
+  }
+}
