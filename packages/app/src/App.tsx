@@ -6,7 +6,7 @@ export function App(): React.ReactElement {
 
   return (
     <div>
-      <h1>Welcome on {APP_TITLE}!</h1>
+      <h1>部署成功 {APP_TITLE}!</h1>
       <p>
         This is the main page of our application where you can confirm that it
         is dynamic by clicking the button below.
