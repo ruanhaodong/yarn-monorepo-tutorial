@@ -17,6 +17,7 @@
     "common": "yarn workspace @ymt/common",
     "server": "yarn workspace @ymt/server",
     "build":"ts-node ./scripts/build.ts",
-    "serve":"node ./packages/server/dist/index.js"
+    "serve":"node ./packages/server/dist/index.js",
+    "docker":"docker build . -t yarn-monorepo-tutorial"
   }
 }
